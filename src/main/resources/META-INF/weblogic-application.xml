@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<weblogic-application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://www.bea.com/ns/weblogic/weblogic-application http://www.bea.com/ns/weblogic/weblogic-application/1.0/weblogic-application.xsd"
+                      xmlns="http://www.bea.com/ns/weblogic/weblogic-application">
+  
+  <application-param>
+    <param-name>webapp.encoding.default</param-name>
+    <param-value>UTF-8</param-value>
+ </application-param>
+
+  <prefer-application-packages>
+    <package-name>org.apache.log4j.*</package-name>
+    <package-name>antlr.*</package-name>
+    <package-name>org.apache.*</package-name>
+    <package-name>org.apache.cxf.*</package-name>
+    <package-name>org.apache.commons.*</package-name>
+    <package-name>org.apache.xmlbeans.*</package-name>
+    <package-name>org.springframework.*</package-name>
+    <package-name>org.hibernate.*</package-name>
+    <package-name>javax.persistence.*</package-name>
+    <package-name>javax.jws.*</package-name>
+    <package-name>javax.wsdl.*</package-name>
+    <package-name>com.ibm.wsdl.*</package-name>
+    <package-name>com.ibm.wsdl.extensions.*</package-name>
+    <package-name>com.ctc.wstx.*</package-name>
+    <package-name>javax.xml.*</package-name>
+    <package-name>org.aspectj.*</package-name>
+	<package-name>org.hibernate.validator.*</package-name>
+	<package-name>javax.validation.*</package-name>
+    <package-name>javax.faces.*</package-name>
+  </prefer-application-packages>
+
+</weblogic-application>
